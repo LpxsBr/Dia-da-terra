@@ -1,14 +1,17 @@
-// funções para mudar imagens através do ID
 
+//functions to change images using id
 
-function funcPlant(){
+// this function is used to plant the small tree
+function funcToPlant(){
   document.getElementById('treeImg').src=`/image/pixil-frame-0 (2).png`;
   }
 
-function funcCresc(){
+// this function is used to show the adult tree 
+function funcGrowUp(){
   document.getElementById('treeImg').src=`/image/pixil-frame-0 (9).png`;
   }
 
+// this function is used to reset the image
 function funcReset(){
   document.getElementById('treeImg').src=`/image/pixil-frame-0 (1).png`;
   }
